@@ -1,0 +1,134 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    list-style: none;
+    
+}
+p{
+      font-size: 2rem;
+      font-weight: bold;
+      
+}
+body{
+    background: darkgray;
+}
+
+.skills{
+    width: 750px;
+    margin: 60px auto;
+}
+
+.about{
+    width:1000px;
+    margin: 60px auto;
+}
+
+.skills li{
+    margin: 20px 0;
+
+}
+
+.bar{
+    background:#353b48;
+    display: block;
+    height: 6px;
+    border: 1px solid rbga(0,0,0,0.3);
+    border-radius:3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px yellow;
+
+}
+
+.bar span{
+    height: 6px;
+    float:left;
+    background:yellow;
+
+}
+
+.html{
+    width:90%;
+    animation: html 2s;
+}
+
+.javascript{
+    width:75%;
+    animation: javascript 2s;
+}
+.c{
+    width:70%;
+    animation: c 2s;
+}
+.css{
+    width:90%;
+    animation: css 2s;
+}
+.python{
+    width:90%;
+    animation: python 2s;
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+
+@keyframes c{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 350px) {
+   
+    p{
+        font-size: 1rem;
+    }
+    .about{
+        width:300px;
+        margin: 30px auto;
+    }
+
+    .skills{
+        width: 300px;
+        margin: 30px auto;
+    }
+    
+
+  }
