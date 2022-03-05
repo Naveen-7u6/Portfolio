@@ -117,9 +117,18 @@ body{
 
 @media only screen and (max-width: 350px) {
    
-body{
-    background: red;
-}
+    p{
+        font-size: 1rem;
+    }
+    .about{
+        width:300px;
+        margin: 30px auto;
+    }
 
+    .skills{
+        width: 300px;
+        margin: 30px auto;
+    }
+    
 
   }
