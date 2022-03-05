@@ -1,4 +1,4 @@
-function sendMail(oarams){
+function sendMail(params){
     
     var temParams = {
         name:document.getElementById("name").value,
