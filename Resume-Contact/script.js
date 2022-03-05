@@ -11,5 +11,10 @@ function sendMail(params){
     .then(function(res){
         console.log("success",res.status);
     })
+    
+      document.getElementById("myButton").onclick = function () {
+        location.href = "./thank.html";
+    };
+ 
  
  }
